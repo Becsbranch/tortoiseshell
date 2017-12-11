@@ -1,0 +1,175 @@
+
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+  with: 1140px;
+  }
+  .tophalf {
+   height: 30rem;
+   display: block;
+   max-width: 1140px;
+   overflow: hidden;
+
+  }
+  /*topcontainer*/
+.topcontainer {
+  background-color: cadetblue;
+  color: white;
+height: 3rem;
+width: 960px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  margin-top: 0;
+  text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.title {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+.title p {
+margin-left: 0;
+padding: 0;
+}
+.nav {
+margin-right: 2rem;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding-left: 1rem;
+}
+/*maincontainer*/
+.maincontainer {
+  width: 1140px;
+}
+.maincontainer .see {
+  position: absolute;
+  top: 13rem;
+  right: 18rem;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: white;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+.maincontainer .see p {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.bgimage img {
+  max-height: 30rem;
+  margin-left: -12rem;
+}
+.middle {
+  width: 1140px;
+  margin-left: 0;
+padding-right: 0;
+margin-right: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+/*services*/
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 3rem;
+}
+.services .item {
+  height: 8rem;
+  margin: 3rem;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.services .item p {
+  padding: 0;
+}
+#page img {
+  max-width: 3.5rem;
+}
+#ruler img {
+  max-width: 5rem;
+}
+#truck img {
+  max-width: 5rem;
+}
+
+/*content*/
+.content {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.content h6 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: cadetblue;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 10rem;
+  padding-left: 1.25rem;
+}
+.content p {
+  text-align: left;
+  padding: 0;
+  margin-bottom: 5rem;
+}
+.content .item {
+  width: 35%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+/*footer*/
+footer {
+  background-color: azure;
+  color: black;
+  position: relative;
+  top: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+align-items: center;
+  height: 9rem;
+  width: 1140px;
+  margin-left: 5rem;
+}
+footer img {
+  height: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+}
+footer p {
+  height: 1rem;
+  padding: 4rem;
+}
